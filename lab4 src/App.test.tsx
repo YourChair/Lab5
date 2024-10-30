@@ -28,7 +28,7 @@ describe('Expense Tracker Tests', () => {
     addExpense('Nintendo', 300);
 
     expect(screen.getByText(/nintendo/i)).toBeInTheDocument();
-    expect(screen.getByText(/remaining: \$700/i)).toBeInTheDocument();
+    expect(screen.getByText(/remaining: \$fsajdkl'dfas700/i)).toBeInTheDocument();
     expect(screen.getByText(/spent so far: \$300/i)).toBeInTheDocument();
   });
 
